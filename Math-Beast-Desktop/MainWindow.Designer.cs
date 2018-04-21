@@ -94,9 +94,6 @@
             this.combobox_TIMP_din = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel32 = new MetroFramework.Controls.MetroLabel();
             this.value_conv_time = new MetroFramework.Controls.MetroTextBox();
-            this.metroTabPage8 = new MetroFramework.Controls.MetroTabPage();
-            this.currency_browser = new System.Windows.Forms.WebBrowser();
-            this.warning_label = new MetroFramework.Controls.MetroLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.metroRadioButton2 = new MetroFramework.Controls.MetroRadioButton();
             this.metroRadioButton1 = new MetroFramework.Controls.MetroRadioButton();
@@ -114,7 +111,6 @@
             this.metroTabPage5.SuspendLayout();
             this.metroTabPage6.SuspendLayout();
             this.metroTabPage7.SuspendLayout();
-            this.metroTabPage8.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -127,11 +123,10 @@
             this.tabs_menu.Controls.Add(this.metroTabPage5);
             this.tabs_menu.Controls.Add(this.metroTabPage6);
             this.tabs_menu.Controls.Add(this.metroTabPage7);
-            this.tabs_menu.Controls.Add(this.metroTabPage8);
             this.tabs_menu.FontWeight = MetroFramework.MetroTabControlWeight.Bold;
             this.tabs_menu.Location = new System.Drawing.Point(23, 33);
             this.tabs_menu.Name = "tabs_menu";
-            this.tabs_menu.SelectedIndex = 7;
+            this.tabs_menu.SelectedIndex = 0;
             this.tabs_menu.Size = new System.Drawing.Size(854, 393);
             this.tabs_menu.Style = MetroFramework.MetroColorStyle.Red;
             this.tabs_menu.TabIndex = 1;
@@ -160,7 +155,7 @@
             this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(846, 300);
+            this.metroTabPage1.Size = new System.Drawing.Size(846, 351);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "NUMERE";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
@@ -654,7 +649,7 @@
             this.metroTabPage2.HorizontalScrollbarSize = 10;
             this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage2.Name = "metroTabPage2";
-            this.metroTabPage2.Size = new System.Drawing.Size(846, 300);
+            this.metroTabPage2.Size = new System.Drawing.Size(846, 351);
             this.metroTabPage2.TabIndex = 1;
             this.metroTabPage2.Text = "     TEMPERATURI    ";
             this.metroTabPage2.VerticalScrollbarBarColor = true;
@@ -795,7 +790,7 @@
             this.metroTabPage3.HorizontalScrollbarSize = 10;
             this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(846, 300);
+            this.metroTabPage3.Size = new System.Drawing.Size(846, 351);
             this.metroTabPage3.TabIndex = 2;
             this.metroTabPage3.Text = "  MASE  ";
             this.metroTabPage3.VerticalScrollbarBarColor = true;
@@ -958,7 +953,7 @@
             this.metroTabPage5.HorizontalScrollbarSize = 10;
             this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage5.Name = "metroTabPage5";
-            this.metroTabPage5.Size = new System.Drawing.Size(846, 300);
+            this.metroTabPage5.Size = new System.Drawing.Size(846, 351);
             this.metroTabPage5.TabIndex = 4;
             this.metroTabPage5.Text = "  AREAS  ";
             this.metroTabPage5.VerticalScrollbarBarColor = true;
@@ -1113,7 +1108,7 @@
             this.metroTabPage6.HorizontalScrollbarSize = 10;
             this.metroTabPage6.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage6.Name = "metroTabPage6";
-            this.metroTabPage6.Size = new System.Drawing.Size(846, 300);
+            this.metroTabPage6.Size = new System.Drawing.Size(846, 351);
             this.metroTabPage6.TabIndex = 5;
             this.metroTabPage6.Text = " VOLUMES ";
             this.metroTabPage6.VerticalScrollbarBarColor = true;
@@ -1288,7 +1283,7 @@
             this.metroTabPage7.HorizontalScrollbarSize = 10;
             this.metroTabPage7.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage7.Name = "metroTabPage7";
-            this.metroTabPage7.Size = new System.Drawing.Size(846, 300);
+            this.metroTabPage7.Size = new System.Drawing.Size(846, 351);
             this.metroTabPage7.TabIndex = 6;
             this.metroTabPage7.Text = " TIME ";
             this.metroTabPage7.VerticalScrollbarBarColor = true;
@@ -1426,42 +1421,6 @@
             this.value_conv_time.TextChanged += new System.EventHandler(this.value_conv_time_TextChanged);
             this.value_conv_time.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.value_conv_time_KeyPress);
             // 
-            // metroTabPage8
-            // 
-            this.metroTabPage8.Controls.Add(this.warning_label);
-            this.metroTabPage8.Controls.Add(this.currency_browser);
-            this.metroTabPage8.HorizontalScrollbarBarColor = true;
-            this.metroTabPage8.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage8.HorizontalScrollbarSize = 10;
-            this.metroTabPage8.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage8.Name = "metroTabPage8";
-            this.metroTabPage8.Size = new System.Drawing.Size(846, 351);
-            this.metroTabPage8.TabIndex = 7;
-            this.metroTabPage8.Text = "CURRENCY";
-            this.metroTabPage8.VerticalScrollbarBarColor = true;
-            this.metroTabPage8.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage8.VerticalScrollbarSize = 10;
-            // 
-            // currency_browser
-            // 
-            this.currency_browser.Location = new System.Drawing.Point(117, 25);
-            this.currency_browser.MinimumSize = new System.Drawing.Size(20, 20);
-            this.currency_browser.Name = "currency_browser";
-            this.currency_browser.ScrollBarsEnabled = false;
-            this.currency_browser.Size = new System.Drawing.Size(618, 317);
-            this.currency_browser.TabIndex = 2;
-            this.currency_browser.Url = new System.Uri("https://finance.google.com/finance/converter", System.UriKind.Absolute);
-            // 
-            // warning_label
-            // 
-            this.warning_label.AutoSize = true;
-            this.warning_label.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.warning_label.Location = new System.Drawing.Point(244, 314);
-            this.warning_label.Name = "warning_label";
-            this.warning_label.Size = new System.Drawing.Size(334, 19);
-            this.warning_label.TabIndex = 3;
-            this.warning_label.Text = "You must be online in order to convert currency!";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
@@ -1598,7 +1557,6 @@
             this.metroButton1.Size = new System.Drawing.Size(50, 32);
             this.metroButton1.TabIndex = 10;
             this.metroButton1.UseSelectable = true;
-            this.metroButton1.Visible = false;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // MainWindow
@@ -1639,8 +1597,6 @@
             this.metroTabPage6.PerformLayout();
             this.metroTabPage7.ResumeLayout(false);
             this.metroTabPage7.PerformLayout();
-            this.metroTabPage8.ResumeLayout(false);
-            this.metroTabPage8.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -1722,8 +1678,5 @@
         private MetroFramework.Controls.MetroComboBox combobox_TIMP_din;
         private MetroFramework.Controls.MetroLabel metroLabel32;
         private MetroFramework.Controls.MetroTextBox value_conv_time;
-        private MetroFramework.Controls.MetroTabPage metroTabPage8;
-        private System.Windows.Forms.WebBrowser currency_browser;
-        private MetroFramework.Controls.MetroLabel warning_label;
     }
 }

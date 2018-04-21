@@ -9,7 +9,7 @@
 
         internal string celsius_to_fahrenheit(double t)
         {
-            return (t * (9 / 5) + 32).ToString();
+            return (t * 1.8 + 32).ToString();
         }
 
         internal string kelvin_to_celsius(double t)
@@ -19,12 +19,12 @@
 
         internal string kelvin_to_fahrenheit(double t)
         {
-            return (t * (9 / 5) - 459.67).ToString();
+            return (t * 1.8 - 459.67).ToString();
         }
 
         internal string fahrenheit_to_celsius(double t)
         {
-            return ((t - 32) * 5 / 9).ToString();
+            return ((t - 32) / 1.8).ToString();
         }
 
         internal string fahrenheit_to_kelvin(double t)

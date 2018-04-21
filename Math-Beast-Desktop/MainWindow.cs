@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Net;
-using System.Net.NetworkInformation;
 using System.Windows.Forms;
 
 namespace Math_Beast_Desktop
@@ -35,35 +33,6 @@ namespace Math_Beast_Desktop
             combobox_V_din.SelectedIndex = combobox_V_in.SelectedIndex = 0;
             combobox_TIMP_din.SelectedIndex = combobox_TIMP_in.SelectedIndex = 0;
             OnEnglish();
-        }
-
-        public static bool CheckForInternetConnection()
-        {
-            //try
-            //{
-            //    using (var client = new WebClient())
-            //    {
-            //        using (client.OpenRead("http://clients3.google.com/generate_204"))
-            //        {
-            //            return true;
-            //        }
-            //    }
-            //}
-            //catch
-            //{
-            //    return false;
-            //}
-            MessageBox.Show("gg");
-            string host = "http://www.c-sharpcorner.com";
-            bool result = false;
-            Ping p = new Ping();
-            try
-            {
-                PingReply reply = p.Send(host, 3000);
-                if (reply.Status == IPStatus.Success) return true;
-            }
-            catch { }
-            return result;
         }
 
         private bool ExtraValid(string s)
@@ -367,14 +336,6 @@ namespace Math_Beast_Desktop
         private void metroTabControl2_SelectedIndexChanged(object sender, EventArgs e)
         {
             OnTabChanged();
-
-            if (tabs_menu.SelectedIndex == 7)
-            {
-                currency_browser.Navigate("https://finance.google.com/finance/converter");
-                solutionTextBox.Visible = metroButton1.Visible = metroLabel1.Visible = false;
-            }
-            else solutionTextBox.Visible = metroButton1.Visible = metroLabel1.Visible = true;
-
         }
 
         private void metroLabel2_Click(object sender, EventArgs e)
@@ -535,7 +496,7 @@ namespace Math_Beast_Desktop
                         else if (i1 == 1 && i2 == 0) solutionTextBox.Text = ct.kelvin_to_celsius(x);
                         else if (i1 == 1 && i2 == 2) solutionTextBox.Text = ct.kelvin_to_fahrenheit(x);
                         else if (i1 == 2 && i2 == 0) solutionTextBox.Text = ct.fahrenheit_to_celsius(x);
-                        else if (i1 == 2 && i2 == 1) solutionTextBox.Text = ct.kelvin_to_fahrenheit(x);
+                        else if (i1 == 2 && i2 == 1) solutionTextBox.Text = ct.fahrenheit_to_kelvin(x);
                     }
                     else
                     {
@@ -757,7 +718,6 @@ namespace Math_Beast_Desktop
             tabs_menu.TabPages[4].Text = "  AREAS  ";
             tabs_menu.TabPages[5].Text = "  VOLUMES  ";
             tabs_menu.TabPages[6].Text = "  TIME ";
-            tabs_menu.TabPages[7].Text = "  CURRENCY  ";
 
             from_dec.Text = "DECIMAL";
             from_bin.Text = "BINARY";
@@ -829,7 +789,7 @@ namespace Math_Beast_Desktop
             combobox_V_din.Items[16] = combobox_V_in.Items[16] = "Fluid ounces (UK)".ToUpper();
             combobox_V_din.Items[17] = combobox_V_in.Items[17] = "Pints (UK)".ToUpper();
             combobox_V_din.Items[18] = combobox_V_in.Items[18] = "Quarts (UK)".ToUpper();
-            combobox_V_din.Items[19] = combobox_V_in.Items[19] = "Gallons (UK)";
+            combobox_V_din.Items[19] = combobox_V_in.Items[19] = "Gallons (UK)".ToUpper();
 
             combobox_TIMP_din.Items[0] = combobox_TIMP_in.Items[0] = "Microseconds".ToUpper();
             combobox_TIMP_din.Items[1] = combobox_TIMP_in.Items[1] = "Milliseconds".ToUpper();
@@ -839,8 +799,6 @@ namespace Math_Beast_Desktop
             combobox_TIMP_din.Items[5] = combobox_TIMP_in.Items[5] = "Days".ToUpper();
             combobox_TIMP_din.Items[6] = combobox_TIMP_in.Items[6] = "Weeks".ToUpper();
             combobox_TIMP_din.Items[7] = combobox_TIMP_in.Items[7] = "Years".ToUpper();
-
-            warning_label.Text = "You must be online in order to convert currency!";
 
             OnTextChanged_N();
             OnTextChanged_L();
@@ -859,7 +817,6 @@ namespace Math_Beast_Desktop
             tabs_menu.TabPages[4].Text = "  ARII  ";
             tabs_menu.TabPages[5].Text = "  VOLUME  ";
             tabs_menu.TabPages[6].Text = "  TIMP  ";
-            tabs_menu.TabPages[7].Text = "  VALUTA  ";
 
             from_dec.Text = to_dec.Text = "ZECIMAL";
             from_bin.Text = to_bin.Text = "BINAR";
@@ -938,8 +895,6 @@ namespace Math_Beast_Desktop
             combobox_TIMP_din.Items[5] = combobox_TIMP_in.Items[5] = "Zile".ToUpper();
             combobox_TIMP_din.Items[6] = combobox_TIMP_in.Items[6] = "Săptamâni".ToUpper();
             combobox_TIMP_din.Items[7] = combobox_TIMP_in.Items[7] = "Ani".ToUpper();
-
-            warning_label.Text = "Trebuie să fii conectat la internet pentru a converti valuta!";
 
             OnTextChanged_N();
             OnTextChanged_L();
