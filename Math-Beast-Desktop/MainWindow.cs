@@ -24,7 +24,7 @@ namespace Math_Beast_Desktop
             ca.Init();
             cv.Init();
             ctmp.Init();
-            metroButton1.Visible = false;
+            copy_button.Visible = false;
 
             combobox_L_din.SelectedIndex = combobox_L_in.SelectedIndex = 0;
             combobox_M_din.SelectedIndex = combobox_M_in.SelectedIndex = 0;
@@ -90,9 +90,9 @@ namespace Math_Beast_Desktop
         private void DisplayWarning()
         {
             value_conv.ForeColor = Color.Crimson;
-            if (metroRadioButton1.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
-            if (metroRadioButton2.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
-            metroButton1.Visible = false;
+            if (radio_to_english.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
+            if (radio_to_romania.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
+            copy_button.Visible = false;
         }
 
         private void OnTextChanged_N()
@@ -116,7 +116,7 @@ namespace Math_Beast_Desktop
                         {
                             value_conv.ForeColor = Color.Black;
                             solutionTextBox.Text = s;
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else if (long.TryParse(s, out x))
                         {
@@ -124,7 +124,7 @@ namespace Math_Beast_Desktop
                             {
                                 value_conv.ForeColor = Color.Black;
                                 solutionTextBox.Text = s;
-                                metroButton1.Visible = true;
+                                copy_button.Visible = true;
                             }
                             else
                                 DisplayWarning();
@@ -136,20 +136,20 @@ namespace Math_Beast_Desktop
                     {
                         value_conv.ForeColor = Color.Black;
                         solutionTextBox.Text = s;
-                        metroButton1.Visible = true;
+                        copy_button.Visible = true;
                     }
                     else DisplayWarning();
                 }
                 else if (from_dec.Checked && to_hex.Checked)
                 {
-                    metroButton1.Visible = false;
+                    copy_button.Visible = false;
                     if (long.TryParse(s, out x))
                     {
                         if (s.Length > 1 && s[0] != '0' || s.Length == 1)
                         {
                             value_conv.ForeColor = Color.Black;
                             solutionTextBox.Text = Convert.ToInt64(value_conv.Text).ToString("X");
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else DisplayWarning();
                     }
@@ -163,7 +163,7 @@ namespace Math_Beast_Desktop
                         {
                             value_conv.ForeColor = Color.Black;
                             solutionTextBox.Text = Convert.ToString(x, 8);
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else DisplayWarning();
                     }
@@ -177,7 +177,7 @@ namespace Math_Beast_Desktop
                         {
                             value_conv.ForeColor = Color.Black;
                             solutionTextBox.Text = Convert.ToString(x, 2);
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else DisplayWarning();
                     }
@@ -189,7 +189,7 @@ namespace Math_Beast_Desktop
                     {
                         value_conv.ForeColor = Color.Black;
                         solutionTextBox.Text = Convert.ToInt64(s, 2).ToString("X");
-                        metroButton1.Visible = true;
+                        copy_button.Visible = true;
                     }
                     else DisplayWarning();
                 }
@@ -200,7 +200,7 @@ namespace Math_Beast_Desktop
                         value_conv.ForeColor = Color.Black;
                         x = Convert.ToInt64(value_conv.Text, 2);
                         solutionTextBox.Text = Convert.ToString(x, 8);
-                        metroButton1.Visible = true;
+                        copy_button.Visible = true;
                     }
                     else DisplayWarning();
                 }
@@ -211,7 +211,7 @@ namespace Math_Beast_Desktop
                         value_conv.ForeColor = Color.Black;
                         x = Convert.ToInt64(value_conv.Text, 2);
                         solutionTextBox.Text = Convert.ToString(x, 10);
-                        metroButton1.Visible = true;
+                        copy_button.Visible = true;
                     }
                     else DisplayWarning();
                 }
@@ -223,7 +223,7 @@ namespace Math_Beast_Desktop
                         {
                             value_conv.ForeColor = Color.Black;
                             solutionTextBox.Text = Convert.ToInt64(s, 8).ToString("X");
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else DisplayWarning();
                     }
@@ -238,7 +238,7 @@ namespace Math_Beast_Desktop
                             value_conv.ForeColor = Color.Black;
                             x = Convert.ToInt64(s, 8);
                             solutionTextBox.Text = Convert.ToString(x, 2);
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else DisplayWarning();
                     }
@@ -253,7 +253,7 @@ namespace Math_Beast_Desktop
                             value_conv.ForeColor = Color.Black;
                             x = Convert.ToInt64(s, 8);
                             solutionTextBox.Text = Convert.ToString(x, 10);
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else DisplayWarning();
                     }
@@ -268,7 +268,7 @@ namespace Math_Beast_Desktop
                             value_conv.ForeColor = Color.Black;
                             long x = Convert.ToInt64(s, 16);
                             solutionTextBox.Text = Convert.ToString(x, 8);
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else DisplayWarning();
                     }
@@ -281,7 +281,7 @@ namespace Math_Beast_Desktop
                         value_conv.ForeColor = Color.Black;
                         long x = Convert.ToInt64(s, 16);
                         solutionTextBox.Text = Convert.ToString(x, 2);
-                        metroButton1.Visible = true;
+                        copy_button.Visible = true;
                     }
                     else DisplayWarning();
                 }
@@ -292,7 +292,7 @@ namespace Math_Beast_Desktop
                         value_conv.ForeColor = Color.Black;
                         long x = Convert.ToInt64(s, 16);
                         solutionTextBox.Text = Convert.ToString(x, 10);
-                        metroButton1.Visible = true;
+                        copy_button.Visible = true;
                     }
                     else DisplayWarning();
                 }
@@ -322,7 +322,7 @@ namespace Math_Beast_Desktop
             int index = tabs_menu.SelectedIndex;
 
             solutionTextBox.Text = value_conv.Text = value_conv_l.Text = value_conv_m.Text = value_conv_t.Text = value_conv_a.Text = value_conv_v.Text = value_conv_time.Text = String.Empty;
-            metroButton1.Visible = false;
+            copy_button.Visible = false;
 
             if (index == 0) value_conv.Focus();
             else if (index == 1) value_conv_l.Focus();
@@ -410,20 +410,20 @@ namespace Math_Beast_Desktop
                         if (Double.TryParse((cl.VAL[combobox_L_din.SelectedIndex + 1, combobox_L_in.SelectedIndex + 1] * Convert.ToDouble(value_conv_l.Text)).ToString(), out x))
                         {
                             solutionTextBox.Text = x.ToString();
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else
                         {
-                            metroButton1.Visible = false;
+                            copy_button.Visible = false;
                             value_conv_l.ForeColor = Color.Crimson;
                         }
                     }
                     else
                     {
                         value_conv_l.ForeColor = Color.Crimson;
-                        metroButton1.Visible = false;
-                        if (metroRadioButton1.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
-                        if (metroRadioButton2.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
+                        copy_button.Visible = false;
+                        if (radio_to_english.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
+                        if (radio_to_romania.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
                     }
                 }
             }
@@ -489,7 +489,7 @@ namespace Math_Beast_Desktop
                     double x;
                     if (Double.TryParse(s, out x) && ExtraValid(s))
                     {
-                        metroButton1.Visible = true;
+                        copy_button.Visible = true;
                         if (i1 == i2) solutionTextBox.Text = s;
                         else if (i1 == 0 && i2 == 1) solutionTextBox.Text = ct.celsius_to_kelvin(x);
                         else if (i1 == 0 && i2 == 2) solutionTextBox.Text = ct.celsius_to_fahrenheit(x);
@@ -500,10 +500,10 @@ namespace Math_Beast_Desktop
                     }
                     else
                     {
-                        metroButton1.Visible = false;
+                        copy_button.Visible = false;
                         value_conv_t.ForeColor = Color.Crimson;
-                        if (metroRadioButton1.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
-                        if (metroRadioButton2.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
+                        if (radio_to_english.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
+                        if (radio_to_romania.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
                     }
                 }
             }
@@ -569,20 +569,20 @@ namespace Math_Beast_Desktop
                         if (Double.TryParse((cm.VAL[combobox_M_din.SelectedIndex + 1, combobox_M_in.SelectedIndex + 1] * Convert.ToDouble(value_conv_m.Text)).ToString(), out x))
                         {
                             solutionTextBox.Text = x.ToString();
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else
                         {
-                            metroButton1.Visible = false;
+                            copy_button.Visible = false;
                             value_conv_m.ForeColor = Color.Crimson;
                         }
                     }
                     else
                     {
                         value_conv_m.ForeColor = Color.Crimson;
-                        metroButton1.Visible = false;
-                        if (metroRadioButton1.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
-                        if (metroRadioButton2.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
+                        copy_button.Visible = false;
+                        if (radio_to_english.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
+                        if (radio_to_romania.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
                     }
                 }
             }
@@ -613,20 +613,20 @@ namespace Math_Beast_Desktop
                         if (Double.TryParse((ca.VAL[combobox_A_din.SelectedIndex + 1, combobox_A_in.SelectedIndex + 1] * Convert.ToDouble(value_conv_a.Text)).ToString(), out x))
                         {
                             solutionTextBox.Text = x.ToString();
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else
                         {
-                            metroButton1.Visible = false;
+                            copy_button.Visible = false;
                             value_conv_a.ForeColor = Color.Crimson;
                         }
                     }
                     else
                     {
                         value_conv_a.ForeColor = Color.Crimson;
-                        metroButton1.Visible = false;
-                        if (metroRadioButton1.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
-                        if (metroRadioButton2.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
+                        copy_button.Visible = false;
+                        if (radio_to_english.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
+                        if (radio_to_romania.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
                     }
                 }
             }
@@ -655,20 +655,20 @@ namespace Math_Beast_Desktop
                         if (Double.TryParse((cv.VAL[combobox_V_din.SelectedIndex + 1, combobox_V_in.SelectedIndex + 1] * Convert.ToDouble(value_conv_v.Text)).ToString(), out x))
                         {
                             solutionTextBox.Text = x.ToString();
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else
                         {
-                            metroButton1.Visible = false;
+                            copy_button.Visible = false;
                             value_conv_v.ForeColor = Color.Crimson;
                         }
                     }
                     else
                     {
                         value_conv_v.ForeColor = Color.Crimson;
-                        metroButton1.Visible = false;
-                        if (metroRadioButton1.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
-                        if (metroRadioButton2.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
+                        copy_button.Visible = false;
+                        if (radio_to_english.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
+                        if (radio_to_romania.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
                     }
                 }
             }
@@ -726,11 +726,11 @@ namespace Math_Beast_Desktop
             to_bin.Text = "BINARY";
             to_hex.Text = "HEXADECIMAL";
 
-            metroLabel1.Text = "Transformation result:";
-            metroLabel11.Text = "ABOUT MATH-BEAST";
-            metroLabel14.Text = metroLabel16.Text = metroLabel21.Text = metroLabel24.Text = metroLabel26.Text = "Enter a number...";
-            metroLabel17.Text = metroLabel20.Text = metroLabel23.Text = metroLabel25.Text = "Transform from...";
-            metroLabel15.Text = metroLabel18.Text = metroLabel19.Text = metroLabel22.Text = metroLabel12.Text = "Transform to...";
+            p_result.Text = "Transformation result:";
+            p_about.Text = "ABOUT MATH-BEAST";
+            p_enter_number.Text = p_enter_number_l.Text = p_enter_number_t.Text = p_enter_number_m.Text = p_enter_number_a.Text = "Enter a number...";
+            p_transform_from_l.Text = p_enter_from_t.Text = p_transform_from_m.Text = p_transform_from_a.Text = "Transform from...";
+            p_transform_to.Text = p_transform_to_l.Text = p_enter_to_t.Text = p_transform_to_m.Text = p_transform_to_a.Text = "Transform to...";
 
             combobox_L_din.Items[0] = combobox_L_in.Items[0] = "Nanometers".ToUpper();
             combobox_L_din.Items[1] = combobox_L_in.Items[1] = "Microns".ToUpper();
@@ -821,12 +821,12 @@ namespace Math_Beast_Desktop
             from_dec.Text = to_dec.Text = "ZECIMAL";
             from_bin.Text = to_bin.Text = "BINAR";
             from_hex.Text = to_hex.Text = "HEXAZECIMAL";
-            metroLabel1.Text = "Rezultatul transformării:";
-            metroLabel11.Text = "DESPRE MATH-BEAST";
+            p_result.Text = "Rezultatul transformării:";
+            p_about.Text = "DESPRE MATH-BEAST";
 
-            metroLabel14.Text = metroLabel16.Text = metroLabel21.Text = metroLabel24.Text = metroLabel26.Text = "Introduceți un număr...";
-            metroLabel17.Text = metroLabel20.Text = metroLabel23.Text = metroLabel25.Text = "Transformați din...";
-            metroLabel18.Text = metroLabel19.Text = metroLabel22.Text = metroLabel15.Text = metroLabel12.Text = "Transformați în...";
+            p_enter_number.Text = p_enter_number_l.Text = p_enter_number_t.Text = p_enter_number_m.Text = p_enter_number_a.Text = "Introduceți un număr...";
+            p_transform_from_l.Text = p_enter_from_t.Text = p_transform_from_m.Text = p_transform_from_a.Text = "Transformați din...";
+            p_transform_to_l.Text = p_enter_to_t.Text = p_transform_to_m.Text = p_transform_to.Text = p_transform_to_a.Text = "Transformați în...";
 
             combobox_L_din.Items[0] = combobox_L_in.Items[0] = "Nanometri".ToUpper();
             combobox_L_din.Items[1] = combobox_L_in.Items[1] = "Microni".ToUpper();
@@ -913,7 +913,7 @@ namespace Math_Beast_Desktop
             if (!String.IsNullOrEmpty(temp))
             {
                 solutionTextBox.Text = temp;
-                metroButton1.Visible = true;
+                copy_button.Visible = true;
 
                 value_conv_m.Focus();
                 value_conv_m.ShowClearButton = true;
@@ -968,7 +968,7 @@ namespace Math_Beast_Desktop
                 value_conv_time.ShowClearButton = true;
 
                 solutionTextBox.Text = temp;
-                metroButton1.Visible = true;
+                copy_button.Visible = true;
             }
         }
 
@@ -1085,20 +1085,20 @@ namespace Math_Beast_Desktop
                         if (Double.TryParse((ctmp.VAL[combobox_TIMP_din.SelectedIndex + 1, combobox_TIMP_in.SelectedIndex + 1] * Convert.ToDouble(value_conv_time.Text)).ToString(), out x))
                         {
                             solutionTextBox.Text = x.ToString();
-                            metroButton1.Visible = true;
+                            copy_button.Visible = true;
                         }
                         else
                         {
-                            metroButton1.Visible = false;
+                            copy_button.Visible = false;
                             value_conv_time.ForeColor = Color.Crimson;
                         }
                     }
                     else
                     {
                         value_conv_time.ForeColor = Color.Crimson;
-                        metroButton1.Visible = false;
-                        if (metroRadioButton1.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
-                        if (metroRadioButton2.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
+                        copy_button.Visible = false;
+                        if (radio_to_english.Checked) solutionTextBox.Text = "NUMBER TOO LARGE OR WRONG FORMAT!";
+                        if (radio_to_romania.Checked) solutionTextBox.Text = "NUMAR PREA MARE SAU FORMAT INCORECT!";
                     }
                 }
             }

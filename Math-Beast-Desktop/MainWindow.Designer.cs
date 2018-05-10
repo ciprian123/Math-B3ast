@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.tabs_menu = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_to = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_number = new MetroFramework.Controls.MetroLabel();
+            this.p_dec = new MetroFramework.Controls.MetroLabel();
+            this.p_hex = new MetroFramework.Controls.MetroLabel();
+            this.p_oct = new MetroFramework.Controls.MetroLabel();
+            this.p_bin = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.p_hex_in = new MetroFramework.Controls.MetroLabel();
+            this.p_bin_in = new MetroFramework.Controls.MetroLabel();
+            this.p_oct_in = new MetroFramework.Controls.MetroLabel();
+            this.p_dec_in = new MetroFramework.Controls.MetroLabel();
             this.to_dec = new MetroFramework.Controls.MetroRadioButton();
             this.to_bin = new MetroFramework.Controls.MetroRadioButton();
             this.to_oct = new MetroFramework.Controls.MetroRadioButton();
@@ -53,55 +53,55 @@
             this.from_dec = new MetroFramework.Controls.MetroRadioButton();
             this.value_conv = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_to_l = new MetroFramework.Controls.MetroLabel();
             this.combobox_L_in = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel17 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_from_l = new MetroFramework.Controls.MetroLabel();
             this.combobox_L_din = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_number_l = new MetroFramework.Controls.MetroLabel();
             this.value_conv_l = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_to_t = new MetroFramework.Controls.MetroLabel();
             this.combobox_T_in = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_from_t = new MetroFramework.Controls.MetroLabel();
             this.combobox_T_din = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel21 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_number_t = new MetroFramework.Controls.MetroLabel();
             this.value_conv_t = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel22 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_to_m = new MetroFramework.Controls.MetroLabel();
             this.combobox_M_in = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel23 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_from_m = new MetroFramework.Controls.MetroLabel();
             this.combobox_M_din = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel24 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_number_m = new MetroFramework.Controls.MetroLabel();
             this.value_conv_m = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_to_a = new MetroFramework.Controls.MetroLabel();
             this.combobox_A_in = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel25 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_from_a = new MetroFramework.Controls.MetroLabel();
             this.combobox_A_din = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel26 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_number_a = new MetroFramework.Controls.MetroLabel();
             this.value_conv_a = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage6 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel27 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_in_v = new MetroFramework.Controls.MetroLabel();
             this.combobox_V_in = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel28 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_from_v = new MetroFramework.Controls.MetroLabel();
             this.combobox_V_din = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel29 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_number_v = new MetroFramework.Controls.MetroLabel();
             this.value_conv_v = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage7 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel30 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_in_timp = new MetroFramework.Controls.MetroLabel();
             this.combobox_TIMP_in = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel31 = new MetroFramework.Controls.MetroLabel();
+            this.p_transform_from_timp = new MetroFramework.Controls.MetroLabel();
             this.combobox_TIMP_din = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel32 = new MetroFramework.Controls.MetroLabel();
+            this.p_enter_number_time = new MetroFramework.Controls.MetroLabel();
             this.value_conv_time = new MetroFramework.Controls.MetroTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.metroRadioButton2 = new MetroFramework.Controls.MetroRadioButton();
-            this.metroRadioButton1 = new MetroFramework.Controls.MetroRadioButton();
-            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.radio_to_romania = new MetroFramework.Controls.MetroRadioButton();
+            this.radio_to_english = new MetroFramework.Controls.MetroRadioButton();
+            this.p_contact = new MetroFramework.Controls.MetroLabel();
+            this.p_about = new MetroFramework.Controls.MetroLabel();
+            this.p_result = new MetroFramework.Controls.MetroLabel();
             this.solutionTextBox = new MetroFramework.Controls.MetroTextBox();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.copy_button = new MetroFramework.Controls.MetroButton();
             this.tabs_menu.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroPanel1.SuspendLayout();
@@ -126,7 +126,7 @@
             this.tabs_menu.FontWeight = MetroFramework.MetroTabControlWeight.Bold;
             this.tabs_menu.Location = new System.Drawing.Point(23, 33);
             this.tabs_menu.Name = "tabs_menu";
-            this.tabs_menu.SelectedIndex = 0;
+            this.tabs_menu.SelectedIndex = 6;
             this.tabs_menu.Size = new System.Drawing.Size(854, 393);
             this.tabs_menu.Style = MetroFramework.MetroColorStyle.Red;
             this.tabs_menu.TabIndex = 1;
@@ -136,12 +136,12 @@
             // 
             // metroTabPage1
             // 
-            this.metroTabPage1.Controls.Add(this.metroLabel15);
-            this.metroTabPage1.Controls.Add(this.metroLabel14);
-            this.metroTabPage1.Controls.Add(this.metroLabel9);
-            this.metroTabPage1.Controls.Add(this.metroLabel5);
-            this.metroTabPage1.Controls.Add(this.metroLabel4);
-            this.metroTabPage1.Controls.Add(this.metroLabel3);
+            this.metroTabPage1.Controls.Add(this.p_transform_to);
+            this.metroTabPage1.Controls.Add(this.p_enter_number);
+            this.metroTabPage1.Controls.Add(this.p_dec);
+            this.metroTabPage1.Controls.Add(this.p_hex);
+            this.metroTabPage1.Controls.Add(this.p_oct);
+            this.metroTabPage1.Controls.Add(this.p_bin);
             this.metroTabPage1.Controls.Add(this.metroLabel2);
             this.metroTabPage1.Controls.Add(this.metroPanel1);
             this.metroTabPage1.Controls.Add(this.from_hex);
@@ -162,87 +162,87 @@
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.VerticalScrollbarSize = 10;
             // 
-            // metroLabel15
+            // p_transform_to
             // 
-            this.metroLabel15.AutoSize = true;
-            this.metroLabel15.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel15.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel15.Location = new System.Drawing.Point(111, 202);
-            this.metroLabel15.Name = "metroLabel15";
-            this.metroLabel15.Size = new System.Drawing.Size(100, 15);
-            this.metroLabel15.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel15.TabIndex = 14;
-            this.metroLabel15.Text = "Transformați in...";
-            this.metroLabel15.UseCustomForeColor = true;
-            this.metroLabel15.UseStyleColors = true;
+            this.p_transform_to.AutoSize = true;
+            this.p_transform_to.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_to.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_to.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_to.Location = new System.Drawing.Point(111, 202);
+            this.p_transform_to.Name = "p_transform_to";
+            this.p_transform_to.Size = new System.Drawing.Size(100, 15);
+            this.p_transform_to.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_to.TabIndex = 14;
+            this.p_transform_to.Text = "Transformați in...";
+            this.p_transform_to.UseCustomForeColor = true;
+            this.p_transform_to.UseStyleColors = true;
             // 
-            // metroLabel14
+            // p_enter_number
             // 
-            this.metroLabel14.AutoSize = true;
-            this.metroLabel14.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel14.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel14.Location = new System.Drawing.Point(96, 42);
-            this.metroLabel14.Name = "metroLabel14";
-            this.metroLabel14.Size = new System.Drawing.Size(134, 15);
-            this.metroLabel14.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel14.TabIndex = 13;
-            this.metroLabel14.Text = "Introduceți un numar...";
-            this.metroLabel14.UseCustomForeColor = true;
-            this.metroLabel14.UseStyleColors = true;
+            this.p_enter_number.AutoSize = true;
+            this.p_enter_number.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_number.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_number.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_number.Location = new System.Drawing.Point(96, 42);
+            this.p_enter_number.Name = "p_enter_number";
+            this.p_enter_number.Size = new System.Drawing.Size(134, 15);
+            this.p_enter_number.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_number.TabIndex = 13;
+            this.p_enter_number.Text = "Introduceți un numar...";
+            this.p_enter_number.UseCustomForeColor = true;
+            this.p_enter_number.UseStyleColors = true;
             // 
-            // metroLabel9
+            // p_dec
             // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel9.Location = new System.Drawing.Point(190, 82);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(37, 15);
-            this.metroLabel9.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel9.TabIndex = 12;
-            this.metroLabel9.Text = "(DEC)";
-            this.metroLabel9.UseStyleColors = true;
+            this.p_dec.AutoSize = true;
+            this.p_dec.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_dec.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_dec.Location = new System.Drawing.Point(190, 82);
+            this.p_dec.Name = "p_dec";
+            this.p_dec.Size = new System.Drawing.Size(37, 15);
+            this.p_dec.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_dec.TabIndex = 12;
+            this.p_dec.Text = "(DEC)";
+            this.p_dec.UseStyleColors = true;
             // 
-            // metroLabel5
+            // p_hex
             // 
-            this.metroLabel5.AutoSize = true;
-            this.metroLabel5.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel5.Location = new System.Drawing.Point(686, 82);
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(38, 15);
-            this.metroLabel5.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel5.TabIndex = 11;
-            this.metroLabel5.Text = "(HEX)";
-            this.metroLabel5.UseStyleColors = true;
+            this.p_hex.AutoSize = true;
+            this.p_hex.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_hex.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_hex.Location = new System.Drawing.Point(686, 82);
+            this.p_hex.Name = "p_hex";
+            this.p_hex.Size = new System.Drawing.Size(38, 15);
+            this.p_hex.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_hex.TabIndex = 11;
+            this.p_hex.Text = "(HEX)";
+            this.p_hex.UseStyleColors = true;
             // 
-            // metroLabel4
+            // p_oct
             // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel4.Location = new System.Drawing.Point(495, 82);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(38, 15);
-            this.metroLabel4.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel4.TabIndex = 10;
-            this.metroLabel4.Text = "(OCT)";
-            this.metroLabel4.UseStyleColors = true;
+            this.p_oct.AutoSize = true;
+            this.p_oct.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_oct.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_oct.Location = new System.Drawing.Point(495, 82);
+            this.p_oct.Name = "p_oct";
+            this.p_oct.Size = new System.Drawing.Size(38, 15);
+            this.p_oct.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_oct.TabIndex = 10;
+            this.p_oct.Text = "(OCT)";
+            this.p_oct.UseStyleColors = true;
             // 
-            // metroLabel3
+            // p_bin
             // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel3.Location = new System.Drawing.Point(337, 82);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(36, 15);
-            this.metroLabel3.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel3.TabIndex = 9;
-            this.metroLabel3.Text = "(BIN)";
-            this.metroLabel3.UseStyleColors = true;
+            this.p_bin.AutoSize = true;
+            this.p_bin.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_bin.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_bin.Location = new System.Drawing.Point(337, 82);
+            this.p_bin.Name = "p_bin";
+            this.p_bin.Size = new System.Drawing.Size(36, 15);
+            this.p_bin.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_bin.TabIndex = 9;
+            this.p_bin.Text = "(BIN)";
+            this.p_bin.UseStyleColors = true;
             // 
             // metroLabel2
             // 
@@ -260,10 +260,10 @@
             // 
             // metroPanel1
             // 
-            this.metroPanel1.Controls.Add(this.metroLabel10);
-            this.metroPanel1.Controls.Add(this.metroLabel8);
-            this.metroPanel1.Controls.Add(this.metroLabel7);
-            this.metroPanel1.Controls.Add(this.metroLabel6);
+            this.metroPanel1.Controls.Add(this.p_hex_in);
+            this.metroPanel1.Controls.Add(this.p_bin_in);
+            this.metroPanel1.Controls.Add(this.p_oct_in);
+            this.metroPanel1.Controls.Add(this.p_dec_in);
             this.metroPanel1.Controls.Add(this.to_dec);
             this.metroPanel1.Controls.Add(this.to_bin);
             this.metroPanel1.Controls.Add(this.to_oct);
@@ -279,57 +279,57 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
-            // metroLabel10
+            // p_hex_in
             // 
-            this.metroLabel10.AutoSize = true;
-            this.metroLabel10.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel10.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel10.Location = new System.Drawing.Point(108, 16);
-            this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(38, 15);
-            this.metroLabel10.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel10.TabIndex = 13;
-            this.metroLabel10.Text = "(HEX)";
-            this.metroLabel10.UseStyleColors = true;
+            this.p_hex_in.AutoSize = true;
+            this.p_hex_in.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_hex_in.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_hex_in.Location = new System.Drawing.Point(108, 16);
+            this.p_hex_in.Name = "p_hex_in";
+            this.p_hex_in.Size = new System.Drawing.Size(38, 15);
+            this.p_hex_in.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_hex_in.TabIndex = 13;
+            this.p_hex_in.Text = "(HEX)";
+            this.p_hex_in.UseStyleColors = true;
             // 
-            // metroLabel8
+            // p_bin_in
             // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel8.Location = new System.Drawing.Point(411, 16);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(36, 15);
-            this.metroLabel8.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel8.TabIndex = 12;
-            this.metroLabel8.Text = "(BIN)";
-            this.metroLabel8.UseStyleColors = true;
+            this.p_bin_in.AutoSize = true;
+            this.p_bin_in.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_bin_in.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_bin_in.Location = new System.Drawing.Point(411, 16);
+            this.p_bin_in.Name = "p_bin_in";
+            this.p_bin_in.Size = new System.Drawing.Size(36, 15);
+            this.p_bin_in.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_bin_in.TabIndex = 12;
+            this.p_bin_in.Text = "(BIN)";
+            this.p_bin_in.UseStyleColors = true;
             // 
-            // metroLabel7
+            // p_oct_in
             // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel7.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel7.Location = new System.Drawing.Point(254, 16);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(38, 15);
-            this.metroLabel7.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel7.TabIndex = 12;
-            this.metroLabel7.Text = "(OCT)";
-            this.metroLabel7.UseStyleColors = true;
+            this.p_oct_in.AutoSize = true;
+            this.p_oct_in.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_oct_in.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_oct_in.Location = new System.Drawing.Point(254, 16);
+            this.p_oct_in.Name = "p_oct_in";
+            this.p_oct_in.Size = new System.Drawing.Size(38, 15);
+            this.p_oct_in.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_oct_in.TabIndex = 12;
+            this.p_oct_in.Text = "(OCT)";
+            this.p_oct_in.UseStyleColors = true;
             // 
-            // metroLabel6
+            // p_dec_in
             // 
-            this.metroLabel6.AutoSize = true;
-            this.metroLabel6.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel6.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel6.Location = new System.Drawing.Point(573, 16);
-            this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(37, 15);
-            this.metroLabel6.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel6.TabIndex = 11;
-            this.metroLabel6.Text = "(DEC)";
-            this.metroLabel6.UseStyleColors = true;
+            this.p_dec_in.AutoSize = true;
+            this.p_dec_in.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_dec_in.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_dec_in.Location = new System.Drawing.Point(573, 16);
+            this.p_dec_in.Name = "p_dec_in";
+            this.p_dec_in.Size = new System.Drawing.Size(37, 15);
+            this.p_dec_in.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_dec_in.TabIndex = 11;
+            this.p_dec_in.Text = "(DEC)";
+            this.p_dec_in.UseStyleColors = true;
             // 
             // to_dec
             // 
@@ -481,11 +481,11 @@
             // 
             // metroTabPage4
             // 
-            this.metroTabPage4.Controls.Add(this.metroLabel18);
+            this.metroTabPage4.Controls.Add(this.p_transform_to_l);
             this.metroTabPage4.Controls.Add(this.combobox_L_in);
-            this.metroTabPage4.Controls.Add(this.metroLabel17);
+            this.metroTabPage4.Controls.Add(this.p_transform_from_l);
             this.metroTabPage4.Controls.Add(this.combobox_L_din);
-            this.metroTabPage4.Controls.Add(this.metroLabel16);
+            this.metroTabPage4.Controls.Add(this.p_enter_number_l);
             this.metroTabPage4.Controls.Add(this.value_conv_l);
             this.metroTabPage4.HorizontalScrollbarBarColor = true;
             this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
@@ -499,20 +499,20 @@
             this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage4.VerticalScrollbarSize = 10;
             // 
-            // metroLabel18
+            // p_transform_to_l
             // 
-            this.metroLabel18.AutoSize = true;
-            this.metroLabel18.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel18.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel18.Location = new System.Drawing.Point(370, 213);
-            this.metroLabel18.Name = "metroLabel18";
-            this.metroLabel18.Size = new System.Drawing.Size(100, 15);
-            this.metroLabel18.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel18.TabIndex = 18;
-            this.metroLabel18.Text = "Transformați in...";
-            this.metroLabel18.UseCustomForeColor = true;
-            this.metroLabel18.UseStyleColors = true;
+            this.p_transform_to_l.AutoSize = true;
+            this.p_transform_to_l.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_to_l.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_to_l.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_to_l.Location = new System.Drawing.Point(370, 213);
+            this.p_transform_to_l.Name = "p_transform_to_l";
+            this.p_transform_to_l.Size = new System.Drawing.Size(100, 15);
+            this.p_transform_to_l.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_to_l.TabIndex = 18;
+            this.p_transform_to_l.Text = "Transformați in...";
+            this.p_transform_to_l.UseCustomForeColor = true;
+            this.p_transform_to_l.UseStyleColors = true;
             // 
             // combobox_L_in
             // 
@@ -539,20 +539,20 @@
             this.combobox_L_in.UseSelectable = true;
             this.combobox_L_in.SelectedIndexChanged += new System.EventHandler(this.metroComboBox2_SelectedIndexChanged);
             // 
-            // metroLabel17
+            // p_transform_from_l
             // 
-            this.metroLabel17.AutoSize = true;
-            this.metroLabel17.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel17.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel17.Location = new System.Drawing.Point(363, 139);
-            this.metroLabel17.Name = "metroLabel17";
-            this.metroLabel17.Size = new System.Drawing.Size(107, 15);
-            this.metroLabel17.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel17.TabIndex = 16;
-            this.metroLabel17.Text = "Transformați din...";
-            this.metroLabel17.UseCustomForeColor = true;
-            this.metroLabel17.UseStyleColors = true;
+            this.p_transform_from_l.AutoSize = true;
+            this.p_transform_from_l.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_from_l.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_from_l.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_from_l.Location = new System.Drawing.Point(363, 139);
+            this.p_transform_from_l.Name = "p_transform_from_l";
+            this.p_transform_from_l.Size = new System.Drawing.Size(107, 15);
+            this.p_transform_from_l.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_from_l.TabIndex = 16;
+            this.p_transform_from_l.Text = "Transformați din...";
+            this.p_transform_from_l.UseCustomForeColor = true;
+            this.p_transform_from_l.UseStyleColors = true;
             // 
             // combobox_L_din
             // 
@@ -583,20 +583,20 @@
             this.combobox_L_din.UseStyleColors = true;
             this.combobox_L_din.SelectedIndexChanged += new System.EventHandler(this.metroComboBox1_SelectedIndexChanged);
             // 
-            // metroLabel16
+            // p_enter_number_l
             // 
-            this.metroLabel16.AutoSize = true;
-            this.metroLabel16.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel16.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel16.Location = new System.Drawing.Point(96, 39);
-            this.metroLabel16.Name = "metroLabel16";
-            this.metroLabel16.Size = new System.Drawing.Size(134, 15);
-            this.metroLabel16.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel16.TabIndex = 14;
-            this.metroLabel16.Text = "Introduceți un numar...";
-            this.metroLabel16.UseCustomForeColor = true;
-            this.metroLabel16.UseStyleColors = true;
+            this.p_enter_number_l.AutoSize = true;
+            this.p_enter_number_l.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_number_l.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_number_l.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_number_l.Location = new System.Drawing.Point(96, 39);
+            this.p_enter_number_l.Name = "p_enter_number_l";
+            this.p_enter_number_l.Size = new System.Drawing.Size(134, 15);
+            this.p_enter_number_l.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_number_l.TabIndex = 14;
+            this.p_enter_number_l.Text = "Introduceți un numar...";
+            this.p_enter_number_l.UseCustomForeColor = true;
+            this.p_enter_number_l.UseStyleColors = true;
             // 
             // value_conv_l
             // 
@@ -638,11 +638,11 @@
             // 
             // metroTabPage2
             // 
-            this.metroTabPage2.Controls.Add(this.metroLabel19);
+            this.metroTabPage2.Controls.Add(this.p_enter_to_t);
             this.metroTabPage2.Controls.Add(this.combobox_T_in);
-            this.metroTabPage2.Controls.Add(this.metroLabel20);
+            this.metroTabPage2.Controls.Add(this.p_enter_from_t);
             this.metroTabPage2.Controls.Add(this.combobox_T_din);
-            this.metroTabPage2.Controls.Add(this.metroLabel21);
+            this.metroTabPage2.Controls.Add(this.p_enter_number_t);
             this.metroTabPage2.Controls.Add(this.value_conv_t);
             this.metroTabPage2.HorizontalScrollbarBarColor = true;
             this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
@@ -656,20 +656,20 @@
             this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage2.VerticalScrollbarSize = 10;
             // 
-            // metroLabel19
+            // p_enter_to_t
             // 
-            this.metroLabel19.AutoSize = true;
-            this.metroLabel19.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel19.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel19.Location = new System.Drawing.Point(370, 213);
-            this.metroLabel19.Name = "metroLabel19";
-            this.metroLabel19.Size = new System.Drawing.Size(100, 15);
-            this.metroLabel19.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel19.TabIndex = 24;
-            this.metroLabel19.Text = "Transformați in...";
-            this.metroLabel19.UseCustomForeColor = true;
-            this.metroLabel19.UseStyleColors = true;
+            this.p_enter_to_t.AutoSize = true;
+            this.p_enter_to_t.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_to_t.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_to_t.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_to_t.Location = new System.Drawing.Point(370, 213);
+            this.p_enter_to_t.Name = "p_enter_to_t";
+            this.p_enter_to_t.Size = new System.Drawing.Size(100, 15);
+            this.p_enter_to_t.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_to_t.TabIndex = 24;
+            this.p_enter_to_t.Text = "Transformați in...";
+            this.p_enter_to_t.UseCustomForeColor = true;
+            this.p_enter_to_t.UseStyleColors = true;
             // 
             // combobox_T_in
             // 
@@ -688,20 +688,20 @@
             this.combobox_T_in.UseSelectable = true;
             this.combobox_T_in.SelectedIndexChanged += new System.EventHandler(this.metroComboBox3_SelectedIndexChanged);
             // 
-            // metroLabel20
+            // p_enter_from_t
             // 
-            this.metroLabel20.AutoSize = true;
-            this.metroLabel20.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel20.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel20.Location = new System.Drawing.Point(363, 139);
-            this.metroLabel20.Name = "metroLabel20";
-            this.metroLabel20.Size = new System.Drawing.Size(107, 15);
-            this.metroLabel20.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel20.TabIndex = 22;
-            this.metroLabel20.Text = "Transformați din...";
-            this.metroLabel20.UseCustomForeColor = true;
-            this.metroLabel20.UseStyleColors = true;
+            this.p_enter_from_t.AutoSize = true;
+            this.p_enter_from_t.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_from_t.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_from_t.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_from_t.Location = new System.Drawing.Point(363, 139);
+            this.p_enter_from_t.Name = "p_enter_from_t";
+            this.p_enter_from_t.Size = new System.Drawing.Size(107, 15);
+            this.p_enter_from_t.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_from_t.TabIndex = 22;
+            this.p_enter_from_t.Text = "Transformați din...";
+            this.p_enter_from_t.UseCustomForeColor = true;
+            this.p_enter_from_t.UseStyleColors = true;
             // 
             // combobox_T_din
             // 
@@ -724,20 +724,20 @@
             this.combobox_T_din.UseStyleColors = true;
             this.combobox_T_din.SelectedIndexChanged += new System.EventHandler(this.metroComboBox4_SelectedIndexChanged);
             // 
-            // metroLabel21
+            // p_enter_number_t
             // 
-            this.metroLabel21.AutoSize = true;
-            this.metroLabel21.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel21.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel21.Location = new System.Drawing.Point(96, 39);
-            this.metroLabel21.Name = "metroLabel21";
-            this.metroLabel21.Size = new System.Drawing.Size(134, 15);
-            this.metroLabel21.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel21.TabIndex = 20;
-            this.metroLabel21.Text = "Introduceți un numar...";
-            this.metroLabel21.UseCustomForeColor = true;
-            this.metroLabel21.UseStyleColors = true;
+            this.p_enter_number_t.AutoSize = true;
+            this.p_enter_number_t.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_number_t.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_number_t.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_number_t.Location = new System.Drawing.Point(96, 39);
+            this.p_enter_number_t.Name = "p_enter_number_t";
+            this.p_enter_number_t.Size = new System.Drawing.Size(134, 15);
+            this.p_enter_number_t.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_number_t.TabIndex = 20;
+            this.p_enter_number_t.Text = "Introduceți un numar...";
+            this.p_enter_number_t.UseCustomForeColor = true;
+            this.p_enter_number_t.UseStyleColors = true;
             // 
             // value_conv_t
             // 
@@ -779,11 +779,11 @@
             // 
             // metroTabPage3
             // 
-            this.metroTabPage3.Controls.Add(this.metroLabel22);
+            this.metroTabPage3.Controls.Add(this.p_transform_to_m);
             this.metroTabPage3.Controls.Add(this.combobox_M_in);
-            this.metroTabPage3.Controls.Add(this.metroLabel23);
+            this.metroTabPage3.Controls.Add(this.p_transform_from_m);
             this.metroTabPage3.Controls.Add(this.combobox_M_din);
-            this.metroTabPage3.Controls.Add(this.metroLabel24);
+            this.metroTabPage3.Controls.Add(this.p_enter_number_m);
             this.metroTabPage3.Controls.Add(this.value_conv_m);
             this.metroTabPage3.HorizontalScrollbarBarColor = true;
             this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
@@ -797,20 +797,20 @@
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 10;
             // 
-            // metroLabel22
+            // p_transform_to_m
             // 
-            this.metroLabel22.AutoSize = true;
-            this.metroLabel22.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel22.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel22.Location = new System.Drawing.Point(370, 213);
-            this.metroLabel22.Name = "metroLabel22";
-            this.metroLabel22.Size = new System.Drawing.Size(100, 15);
-            this.metroLabel22.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel22.TabIndex = 30;
-            this.metroLabel22.Text = "Transformați in...";
-            this.metroLabel22.UseCustomForeColor = true;
-            this.metroLabel22.UseStyleColors = true;
+            this.p_transform_to_m.AutoSize = true;
+            this.p_transform_to_m.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_to_m.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_to_m.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_to_m.Location = new System.Drawing.Point(370, 213);
+            this.p_transform_to_m.Name = "p_transform_to_m";
+            this.p_transform_to_m.Size = new System.Drawing.Size(100, 15);
+            this.p_transform_to_m.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_to_m.TabIndex = 30;
+            this.p_transform_to_m.Text = "Transformați in...";
+            this.p_transform_to_m.UseCustomForeColor = true;
+            this.p_transform_to_m.UseStyleColors = true;
             // 
             // combobox_M_in
             // 
@@ -840,20 +840,20 @@
             this.combobox_M_in.UseSelectable = true;
             this.combobox_M_in.SelectedIndexChanged += new System.EventHandler(this.combobox_M_in_SelectedIndexChanged);
             // 
-            // metroLabel23
+            // p_transform_from_m
             // 
-            this.metroLabel23.AutoSize = true;
-            this.metroLabel23.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel23.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel23.Location = new System.Drawing.Point(363, 139);
-            this.metroLabel23.Name = "metroLabel23";
-            this.metroLabel23.Size = new System.Drawing.Size(107, 15);
-            this.metroLabel23.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel23.TabIndex = 28;
-            this.metroLabel23.Text = "Transformați din...";
-            this.metroLabel23.UseCustomForeColor = true;
-            this.metroLabel23.UseStyleColors = true;
+            this.p_transform_from_m.AutoSize = true;
+            this.p_transform_from_m.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_from_m.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_from_m.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_from_m.Location = new System.Drawing.Point(363, 139);
+            this.p_transform_from_m.Name = "p_transform_from_m";
+            this.p_transform_from_m.Size = new System.Drawing.Size(107, 15);
+            this.p_transform_from_m.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_from_m.TabIndex = 28;
+            this.p_transform_from_m.Text = "Transformați din...";
+            this.p_transform_from_m.UseCustomForeColor = true;
+            this.p_transform_from_m.UseStyleColors = true;
             // 
             // combobox_M_din
             // 
@@ -887,20 +887,20 @@
             this.combobox_M_din.UseStyleColors = true;
             this.combobox_M_din.SelectedIndexChanged += new System.EventHandler(this.combobox_M_din_SelectedIndexChanged);
             // 
-            // metroLabel24
+            // p_enter_number_m
             // 
-            this.metroLabel24.AutoSize = true;
-            this.metroLabel24.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel24.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel24.Location = new System.Drawing.Point(96, 39);
-            this.metroLabel24.Name = "metroLabel24";
-            this.metroLabel24.Size = new System.Drawing.Size(134, 15);
-            this.metroLabel24.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel24.TabIndex = 26;
-            this.metroLabel24.Text = "Introduceți un numar...";
-            this.metroLabel24.UseCustomForeColor = true;
-            this.metroLabel24.UseStyleColors = true;
+            this.p_enter_number_m.AutoSize = true;
+            this.p_enter_number_m.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_number_m.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_number_m.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_number_m.Location = new System.Drawing.Point(96, 39);
+            this.p_enter_number_m.Name = "p_enter_number_m";
+            this.p_enter_number_m.Size = new System.Drawing.Size(134, 15);
+            this.p_enter_number_m.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_number_m.TabIndex = 26;
+            this.p_enter_number_m.Text = "Introduceți un numar...";
+            this.p_enter_number_m.UseCustomForeColor = true;
+            this.p_enter_number_m.UseStyleColors = true;
             // 
             // value_conv_m
             // 
@@ -942,11 +942,11 @@
             // 
             // metroTabPage5
             // 
-            this.metroTabPage5.Controls.Add(this.metroLabel12);
+            this.metroTabPage5.Controls.Add(this.p_transform_to_a);
             this.metroTabPage5.Controls.Add(this.combobox_A_in);
-            this.metroTabPage5.Controls.Add(this.metroLabel25);
+            this.metroTabPage5.Controls.Add(this.p_transform_from_a);
             this.metroTabPage5.Controls.Add(this.combobox_A_din);
-            this.metroTabPage5.Controls.Add(this.metroLabel26);
+            this.metroTabPage5.Controls.Add(this.p_enter_number_a);
             this.metroTabPage5.Controls.Add(this.value_conv_a);
             this.metroTabPage5.HorizontalScrollbarBarColor = true;
             this.metroTabPage5.HorizontalScrollbarHighlightOnWheel = false;
@@ -960,20 +960,20 @@
             this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage5.VerticalScrollbarSize = 10;
             // 
-            // metroLabel12
+            // p_transform_to_a
             // 
-            this.metroLabel12.AutoSize = true;
-            this.metroLabel12.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel12.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel12.Location = new System.Drawing.Point(370, 213);
-            this.metroLabel12.Name = "metroLabel12";
-            this.metroLabel12.Size = new System.Drawing.Size(100, 15);
-            this.metroLabel12.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel12.TabIndex = 36;
-            this.metroLabel12.Text = "Transformați in...";
-            this.metroLabel12.UseCustomForeColor = true;
-            this.metroLabel12.UseStyleColors = true;
+            this.p_transform_to_a.AutoSize = true;
+            this.p_transform_to_a.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_to_a.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_to_a.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_to_a.Location = new System.Drawing.Point(370, 213);
+            this.p_transform_to_a.Name = "p_transform_to_a";
+            this.p_transform_to_a.Size = new System.Drawing.Size(100, 15);
+            this.p_transform_to_a.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_to_a.TabIndex = 36;
+            this.p_transform_to_a.Text = "Transformați in...";
+            this.p_transform_to_a.UseCustomForeColor = true;
+            this.p_transform_to_a.UseStyleColors = true;
             // 
             // combobox_A_in
             // 
@@ -999,20 +999,20 @@
             this.combobox_A_in.UseSelectable = true;
             this.combobox_A_in.SelectedIndexChanged += new System.EventHandler(this.combobox_A_in_SelectedIndexChanged);
             // 
-            // metroLabel25
+            // p_transform_from_a
             // 
-            this.metroLabel25.AutoSize = true;
-            this.metroLabel25.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel25.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel25.Location = new System.Drawing.Point(363, 139);
-            this.metroLabel25.Name = "metroLabel25";
-            this.metroLabel25.Size = new System.Drawing.Size(107, 15);
-            this.metroLabel25.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel25.TabIndex = 34;
-            this.metroLabel25.Text = "Transformați din...";
-            this.metroLabel25.UseCustomForeColor = true;
-            this.metroLabel25.UseStyleColors = true;
+            this.p_transform_from_a.AutoSize = true;
+            this.p_transform_from_a.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_from_a.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_from_a.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_from_a.Location = new System.Drawing.Point(363, 139);
+            this.p_transform_from_a.Name = "p_transform_from_a";
+            this.p_transform_from_a.Size = new System.Drawing.Size(107, 15);
+            this.p_transform_from_a.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_from_a.TabIndex = 34;
+            this.p_transform_from_a.Text = "Transformați din...";
+            this.p_transform_from_a.UseCustomForeColor = true;
+            this.p_transform_from_a.UseStyleColors = true;
             // 
             // combobox_A_din
             // 
@@ -1042,20 +1042,20 @@
             this.combobox_A_din.UseStyleColors = true;
             this.combobox_A_din.SelectedIndexChanged += new System.EventHandler(this.combobox_A_din_SelectedIndexChanged);
             // 
-            // metroLabel26
+            // p_enter_number_a
             // 
-            this.metroLabel26.AutoSize = true;
-            this.metroLabel26.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel26.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel26.Location = new System.Drawing.Point(96, 39);
-            this.metroLabel26.Name = "metroLabel26";
-            this.metroLabel26.Size = new System.Drawing.Size(134, 15);
-            this.metroLabel26.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel26.TabIndex = 32;
-            this.metroLabel26.Text = "Introduceți un numar...";
-            this.metroLabel26.UseCustomForeColor = true;
-            this.metroLabel26.UseStyleColors = true;
+            this.p_enter_number_a.AutoSize = true;
+            this.p_enter_number_a.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_number_a.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_number_a.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_number_a.Location = new System.Drawing.Point(96, 39);
+            this.p_enter_number_a.Name = "p_enter_number_a";
+            this.p_enter_number_a.Size = new System.Drawing.Size(134, 15);
+            this.p_enter_number_a.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_number_a.TabIndex = 32;
+            this.p_enter_number_a.Text = "Introduceți un numar...";
+            this.p_enter_number_a.UseCustomForeColor = true;
+            this.p_enter_number_a.UseStyleColors = true;
             // 
             // value_conv_a
             // 
@@ -1097,11 +1097,11 @@
             // 
             // metroTabPage6
             // 
-            this.metroTabPage6.Controls.Add(this.metroLabel27);
+            this.metroTabPage6.Controls.Add(this.p_transform_in_v);
             this.metroTabPage6.Controls.Add(this.combobox_V_in);
-            this.metroTabPage6.Controls.Add(this.metroLabel28);
+            this.metroTabPage6.Controls.Add(this.p_transform_from_v);
             this.metroTabPage6.Controls.Add(this.combobox_V_din);
-            this.metroTabPage6.Controls.Add(this.metroLabel29);
+            this.metroTabPage6.Controls.Add(this.p_enter_number_v);
             this.metroTabPage6.Controls.Add(this.value_conv_v);
             this.metroTabPage6.HorizontalScrollbarBarColor = true;
             this.metroTabPage6.HorizontalScrollbarHighlightOnWheel = false;
@@ -1115,20 +1115,20 @@
             this.metroTabPage6.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage6.VerticalScrollbarSize = 10;
             // 
-            // metroLabel27
+            // p_transform_in_v
             // 
-            this.metroLabel27.AutoSize = true;
-            this.metroLabel27.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel27.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel27.Location = new System.Drawing.Point(370, 213);
-            this.metroLabel27.Name = "metroLabel27";
-            this.metroLabel27.Size = new System.Drawing.Size(100, 15);
-            this.metroLabel27.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel27.TabIndex = 42;
-            this.metroLabel27.Text = "Transformați in...";
-            this.metroLabel27.UseCustomForeColor = true;
-            this.metroLabel27.UseStyleColors = true;
+            this.p_transform_in_v.AutoSize = true;
+            this.p_transform_in_v.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_in_v.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_in_v.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_in_v.Location = new System.Drawing.Point(370, 213);
+            this.p_transform_in_v.Name = "p_transform_in_v";
+            this.p_transform_in_v.Size = new System.Drawing.Size(100, 15);
+            this.p_transform_in_v.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_in_v.TabIndex = 42;
+            this.p_transform_in_v.Text = "Transformați in...";
+            this.p_transform_in_v.UseCustomForeColor = true;
+            this.p_transform_in_v.UseStyleColors = true;
             // 
             // combobox_V_in
             // 
@@ -1164,20 +1164,20 @@
             this.combobox_V_in.UseSelectable = true;
             this.combobox_V_in.SelectedIndexChanged += new System.EventHandler(this.combobox_V_in_SelectedIndexChanged);
             // 
-            // metroLabel28
+            // p_transform_from_v
             // 
-            this.metroLabel28.AutoSize = true;
-            this.metroLabel28.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel28.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel28.Location = new System.Drawing.Point(363, 139);
-            this.metroLabel28.Name = "metroLabel28";
-            this.metroLabel28.Size = new System.Drawing.Size(107, 15);
-            this.metroLabel28.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel28.TabIndex = 40;
-            this.metroLabel28.Text = "Transformați din...";
-            this.metroLabel28.UseCustomForeColor = true;
-            this.metroLabel28.UseStyleColors = true;
+            this.p_transform_from_v.AutoSize = true;
+            this.p_transform_from_v.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_from_v.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_from_v.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_from_v.Location = new System.Drawing.Point(363, 139);
+            this.p_transform_from_v.Name = "p_transform_from_v";
+            this.p_transform_from_v.Size = new System.Drawing.Size(107, 15);
+            this.p_transform_from_v.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_from_v.TabIndex = 40;
+            this.p_transform_from_v.Text = "Transformați din...";
+            this.p_transform_from_v.UseCustomForeColor = true;
+            this.p_transform_from_v.UseStyleColors = true;
             // 
             // combobox_V_din
             // 
@@ -1217,20 +1217,20 @@
             this.combobox_V_din.UseStyleColors = true;
             this.combobox_V_din.SelectedIndexChanged += new System.EventHandler(this.combobox_V_din_SelectedIndexChanged);
             // 
-            // metroLabel29
+            // p_enter_number_v
             // 
-            this.metroLabel29.AutoSize = true;
-            this.metroLabel29.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel29.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel29.Location = new System.Drawing.Point(96, 39);
-            this.metroLabel29.Name = "metroLabel29";
-            this.metroLabel29.Size = new System.Drawing.Size(134, 15);
-            this.metroLabel29.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel29.TabIndex = 38;
-            this.metroLabel29.Text = "Introduceți un numar...";
-            this.metroLabel29.UseCustomForeColor = true;
-            this.metroLabel29.UseStyleColors = true;
+            this.p_enter_number_v.AutoSize = true;
+            this.p_enter_number_v.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_number_v.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_number_v.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_number_v.Location = new System.Drawing.Point(96, 39);
+            this.p_enter_number_v.Name = "p_enter_number_v";
+            this.p_enter_number_v.Size = new System.Drawing.Size(134, 15);
+            this.p_enter_number_v.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_number_v.TabIndex = 38;
+            this.p_enter_number_v.Text = "Introduceți un numar...";
+            this.p_enter_number_v.UseCustomForeColor = true;
+            this.p_enter_number_v.UseStyleColors = true;
             // 
             // value_conv_v
             // 
@@ -1272,11 +1272,11 @@
             // 
             // metroTabPage7
             // 
-            this.metroTabPage7.Controls.Add(this.metroLabel30);
+            this.metroTabPage7.Controls.Add(this.p_transform_in_timp);
             this.metroTabPage7.Controls.Add(this.combobox_TIMP_in);
-            this.metroTabPage7.Controls.Add(this.metroLabel31);
+            this.metroTabPage7.Controls.Add(this.p_transform_from_timp);
             this.metroTabPage7.Controls.Add(this.combobox_TIMP_din);
-            this.metroTabPage7.Controls.Add(this.metroLabel32);
+            this.metroTabPage7.Controls.Add(this.p_enter_number_time);
             this.metroTabPage7.Controls.Add(this.value_conv_time);
             this.metroTabPage7.HorizontalScrollbarBarColor = true;
             this.metroTabPage7.HorizontalScrollbarHighlightOnWheel = false;
@@ -1290,20 +1290,20 @@
             this.metroTabPage7.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage7.VerticalScrollbarSize = 10;
             // 
-            // metroLabel30
+            // p_transform_in_timp
             // 
-            this.metroLabel30.AutoSize = true;
-            this.metroLabel30.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel30.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel30.Location = new System.Drawing.Point(370, 213);
-            this.metroLabel30.Name = "metroLabel30";
-            this.metroLabel30.Size = new System.Drawing.Size(100, 15);
-            this.metroLabel30.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel30.TabIndex = 42;
-            this.metroLabel30.Text = "Transformați in...";
-            this.metroLabel30.UseCustomForeColor = true;
-            this.metroLabel30.UseStyleColors = true;
+            this.p_transform_in_timp.AutoSize = true;
+            this.p_transform_in_timp.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_in_timp.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_in_timp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_in_timp.Location = new System.Drawing.Point(370, 213);
+            this.p_transform_in_timp.Name = "p_transform_in_timp";
+            this.p_transform_in_timp.Size = new System.Drawing.Size(100, 15);
+            this.p_transform_in_timp.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_in_timp.TabIndex = 42;
+            this.p_transform_in_timp.Text = "Transformați in...";
+            this.p_transform_in_timp.UseCustomForeColor = true;
+            this.p_transform_in_timp.UseStyleColors = true;
             // 
             // combobox_TIMP_in
             // 
@@ -1327,20 +1327,20 @@
             this.combobox_TIMP_in.UseSelectable = true;
             this.combobox_TIMP_in.SelectedIndexChanged += new System.EventHandler(this.combobox_TIMP_in_SelectedIndexChanged);
             // 
-            // metroLabel31
+            // p_transform_from_timp
             // 
-            this.metroLabel31.AutoSize = true;
-            this.metroLabel31.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel31.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel31.Location = new System.Drawing.Point(363, 139);
-            this.metroLabel31.Name = "metroLabel31";
-            this.metroLabel31.Size = new System.Drawing.Size(107, 15);
-            this.metroLabel31.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel31.TabIndex = 40;
-            this.metroLabel31.Text = "Transformați din...";
-            this.metroLabel31.UseCustomForeColor = true;
-            this.metroLabel31.UseStyleColors = true;
+            this.p_transform_from_timp.AutoSize = true;
+            this.p_transform_from_timp.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_transform_from_timp.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_transform_from_timp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_transform_from_timp.Location = new System.Drawing.Point(363, 139);
+            this.p_transform_from_timp.Name = "p_transform_from_timp";
+            this.p_transform_from_timp.Size = new System.Drawing.Size(107, 15);
+            this.p_transform_from_timp.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_transform_from_timp.TabIndex = 40;
+            this.p_transform_from_timp.Text = "Transformați din...";
+            this.p_transform_from_timp.UseCustomForeColor = true;
+            this.p_transform_from_timp.UseStyleColors = true;
             // 
             // combobox_TIMP_din
             // 
@@ -1368,20 +1368,20 @@
             this.combobox_TIMP_din.UseStyleColors = true;
             this.combobox_TIMP_din.SelectedIndexChanged += new System.EventHandler(this.combobox_TIMP_din_SelectedIndexChanged);
             // 
-            // metroLabel32
+            // p_enter_number_time
             // 
-            this.metroLabel32.AutoSize = true;
-            this.metroLabel32.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel32.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel32.Location = new System.Drawing.Point(96, 39);
-            this.metroLabel32.Name = "metroLabel32";
-            this.metroLabel32.Size = new System.Drawing.Size(134, 15);
-            this.metroLabel32.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel32.TabIndex = 38;
-            this.metroLabel32.Text = "Introduceți un numar...";
-            this.metroLabel32.UseCustomForeColor = true;
-            this.metroLabel32.UseStyleColors = true;
+            this.p_enter_number_time.AutoSize = true;
+            this.p_enter_number_time.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_enter_number_time.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_enter_number_time.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_enter_number_time.Location = new System.Drawing.Point(96, 39);
+            this.p_enter_number_time.Name = "p_enter_number_time";
+            this.p_enter_number_time.Size = new System.Drawing.Size(134, 15);
+            this.p_enter_number_time.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_enter_number_time.TabIndex = 38;
+            this.p_enter_number_time.Text = "Introduceți un numar...";
+            this.p_enter_number_time.UseCustomForeColor = true;
+            this.p_enter_number_time.UseStyleColors = true;
             // 
             // value_conv_time
             // 
@@ -1424,93 +1424,93 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.panel1.Controls.Add(this.metroRadioButton2);
-            this.panel1.Controls.Add(this.metroRadioButton1);
-            this.panel1.Controls.Add(this.metroLabel13);
-            this.panel1.Controls.Add(this.metroLabel11);
+            this.panel1.Controls.Add(this.radio_to_romania);
+            this.panel1.Controls.Add(this.radio_to_english);
+            this.panel1.Controls.Add(this.p_contact);
+            this.panel1.Controls.Add(this.p_about);
             this.panel1.Location = new System.Drawing.Point(-4, 518);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(911, 131);
             this.panel1.TabIndex = 2;
             // 
-            // metroRadioButton2
+            // radio_to_romania
             // 
-            this.metroRadioButton2.AutoSize = true;
-            this.metroRadioButton2.ForeColor = System.Drawing.SystemColors.Control;
-            this.metroRadioButton2.Location = new System.Drawing.Point(610, 17);
-            this.metroRadioButton2.Name = "metroRadioButton2";
-            this.metroRadioButton2.Size = new System.Drawing.Size(67, 15);
-            this.metroRadioButton2.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroRadioButton2.TabIndex = 4;
-            this.metroRadioButton2.Text = "Română";
-            this.metroRadioButton2.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroRadioButton2.UseCustomBackColor = true;
-            this.metroRadioButton2.UseCustomForeColor = true;
-            this.metroRadioButton2.UseSelectable = true;
-            this.metroRadioButton2.CheckedChanged += new System.EventHandler(this.metroRadioButton2_CheckedChanged);
+            this.radio_to_romania.AutoSize = true;
+            this.radio_to_romania.ForeColor = System.Drawing.SystemColors.Control;
+            this.radio_to_romania.Location = new System.Drawing.Point(610, 17);
+            this.radio_to_romania.Name = "radio_to_romania";
+            this.radio_to_romania.Size = new System.Drawing.Size(67, 15);
+            this.radio_to_romania.Style = MetroFramework.MetroColorStyle.Red;
+            this.radio_to_romania.TabIndex = 4;
+            this.radio_to_romania.Text = "Română";
+            this.radio_to_romania.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.radio_to_romania.UseCustomBackColor = true;
+            this.radio_to_romania.UseCustomForeColor = true;
+            this.radio_to_romania.UseSelectable = true;
+            this.radio_to_romania.CheckedChanged += new System.EventHandler(this.metroRadioButton2_CheckedChanged);
             // 
-            // metroRadioButton1
+            // radio_to_english
             // 
-            this.metroRadioButton1.AutoSize = true;
-            this.metroRadioButton1.Checked = true;
-            this.metroRadioButton1.ForeColor = System.Drawing.SystemColors.Control;
-            this.metroRadioButton1.Location = new System.Drawing.Point(258, 16);
-            this.metroRadioButton1.Name = "metroRadioButton1";
-            this.metroRadioButton1.Size = new System.Drawing.Size(61, 15);
-            this.metroRadioButton1.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroRadioButton1.TabIndex = 3;
-            this.metroRadioButton1.TabStop = true;
-            this.metroRadioButton1.Text = "English";
-            this.metroRadioButton1.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroRadioButton1.UseCustomBackColor = true;
-            this.metroRadioButton1.UseCustomForeColor = true;
-            this.metroRadioButton1.UseSelectable = true;
-            this.metroRadioButton1.CheckedChanged += new System.EventHandler(this.metroRadioButton1_CheckedChanged);
+            this.radio_to_english.AutoSize = true;
+            this.radio_to_english.Checked = true;
+            this.radio_to_english.ForeColor = System.Drawing.SystemColors.Control;
+            this.radio_to_english.Location = new System.Drawing.Point(258, 16);
+            this.radio_to_english.Name = "radio_to_english";
+            this.radio_to_english.Size = new System.Drawing.Size(61, 15);
+            this.radio_to_english.Style = MetroFramework.MetroColorStyle.Red;
+            this.radio_to_english.TabIndex = 3;
+            this.radio_to_english.TabStop = true;
+            this.radio_to_english.Text = "English";
+            this.radio_to_english.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.radio_to_english.UseCustomBackColor = true;
+            this.radio_to_english.UseCustomForeColor = true;
+            this.radio_to_english.UseSelectable = true;
+            this.radio_to_english.CheckedChanged += new System.EventHandler(this.metroRadioButton1_CheckedChanged);
             // 
-            // metroLabel13
+            // p_contact
             // 
-            this.metroLabel13.AutoSize = true;
-            this.metroLabel13.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel13.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel13.Location = new System.Drawing.Point(815, 17);
-            this.metroLabel13.Name = "metroLabel13";
-            this.metroLabel13.Size = new System.Drawing.Size(62, 15);
-            this.metroLabel13.Style = MetroFramework.MetroColorStyle.White;
-            this.metroLabel13.TabIndex = 2;
-            this.metroLabel13.Text = "CONTACT";
-            this.metroLabel13.UseCustomBackColor = true;
-            this.metroLabel13.UseStyleColors = true;
-            this.metroLabel13.Click += new System.EventHandler(this.metroLabel13_Click);
+            this.p_contact.AutoSize = true;
+            this.p_contact.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_contact.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.p_contact.Location = new System.Drawing.Point(815, 17);
+            this.p_contact.Name = "p_contact";
+            this.p_contact.Size = new System.Drawing.Size(62, 15);
+            this.p_contact.Style = MetroFramework.MetroColorStyle.White;
+            this.p_contact.TabIndex = 2;
+            this.p_contact.Text = "CONTACT";
+            this.p_contact.UseCustomBackColor = true;
+            this.p_contact.UseStyleColors = true;
+            this.p_contact.Click += new System.EventHandler(this.metroLabel13_Click);
             // 
-            // metroLabel11
+            // p_about
             // 
-            this.metroLabel11.AutoSize = true;
-            this.metroLabel11.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel11.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel11.Location = new System.Drawing.Point(23, 16);
-            this.metroLabel11.Name = "metroLabel11";
-            this.metroLabel11.Size = new System.Drawing.Size(123, 15);
-            this.metroLabel11.Style = MetroFramework.MetroColorStyle.White;
-            this.metroLabel11.TabIndex = 0;
-            this.metroLabel11.Text = "DESPRE MATH-BEAST";
-            this.metroLabel11.UseCustomBackColor = true;
-            this.metroLabel11.UseStyleColors = true;
-            this.metroLabel11.Click += new System.EventHandler(this.metroLabel11_Click);
+            this.p_about.AutoSize = true;
+            this.p_about.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_about.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.p_about.Location = new System.Drawing.Point(23, 16);
+            this.p_about.Name = "p_about";
+            this.p_about.Size = new System.Drawing.Size(123, 15);
+            this.p_about.Style = MetroFramework.MetroColorStyle.White;
+            this.p_about.TabIndex = 0;
+            this.p_about.Text = "DESPRE MATH-BEAST";
+            this.p_about.UseCustomBackColor = true;
+            this.p_about.UseStyleColors = true;
+            this.p_about.Click += new System.EventHandler(this.metroLabel11_Click);
             // 
-            // metroLabel1
+            // p_result
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.metroLabel1.Location = new System.Drawing.Point(85, 441);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(124, 15);
-            this.metroLabel1.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroLabel1.TabIndex = 9;
-            this.metroLabel1.Text = "Rezultatul calculuilui:";
-            this.metroLabel1.UseCustomForeColor = true;
-            this.metroLabel1.UseStyleColors = true;
+            this.p_result.AutoSize = true;
+            this.p_result.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.p_result.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.p_result.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
+            this.p_result.Location = new System.Drawing.Point(85, 441);
+            this.p_result.Name = "p_result";
+            this.p_result.Size = new System.Drawing.Size(124, 15);
+            this.p_result.Style = MetroFramework.MetroColorStyle.Red;
+            this.p_result.TabIndex = 9;
+            this.p_result.Text = "Rezultatul calculuilui:";
+            this.p_result.UseCustomForeColor = true;
+            this.p_result.UseStyleColors = true;
             // 
             // solutionTextBox
             // 
@@ -1548,16 +1548,16 @@
             this.solutionTextBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.solutionTextBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroButton1
+            // copy_button
             // 
-            this.metroButton1.BackColor = System.Drawing.Color.White;
-            this.metroButton1.BackgroundImage = global::Math_Beast_Desktop.Properties.Resources.copy;
-            this.metroButton1.Location = new System.Drawing.Point(761, 469);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(50, 32);
-            this.metroButton1.TabIndex = 10;
-            this.metroButton1.UseSelectable = true;
-            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            this.copy_button.BackColor = System.Drawing.Color.White;
+            this.copy_button.BackgroundImage = global::Math_Beast_Desktop.Properties.Resources.copy;
+            this.copy_button.Location = new System.Drawing.Point(761, 469);
+            this.copy_button.Name = "copy_button";
+            this.copy_button.Size = new System.Drawing.Size(50, 32);
+            this.copy_button.TabIndex = 10;
+            this.copy_button.UseSelectable = true;
+            this.copy_button.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // MainWindow
             // 
@@ -1565,8 +1565,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackLocation = MetroFramework.Forms.BackLocation.TopRight;
             this.ClientSize = new System.Drawing.Size(900, 570);
-            this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.metroLabel1);
+            this.Controls.Add(this.copy_button);
+            this.Controls.Add(this.p_result);
             this.Controls.Add(this.solutionTextBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tabs_menu);
@@ -1620,63 +1620,63 @@
         private MetroFramework.Controls.MetroRadioButton to_oct;
         private MetroFramework.Controls.MetroRadioButton to_hex;
         private System.Windows.Forms.Panel panel1;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroLabel p_result;
         private MetroFramework.Controls.MetroLabel metroLabel2;
-        private MetroFramework.Controls.MetroLabel metroLabel9;
-        private MetroFramework.Controls.MetroLabel metroLabel5;
-        private MetroFramework.Controls.MetroLabel metroLabel4;
-        private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroLabel metroLabel10;
-        private MetroFramework.Controls.MetroLabel metroLabel8;
-        private MetroFramework.Controls.MetroLabel metroLabel7;
-        private MetroFramework.Controls.MetroLabel metroLabel6;
-        private MetroFramework.Controls.MetroLabel metroLabel13;
-        private MetroFramework.Controls.MetroLabel metroLabel11;
-        private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroLabel metroLabel14;
-        private MetroFramework.Controls.MetroLabel metroLabel15;
+        private MetroFramework.Controls.MetroLabel p_dec;
+        private MetroFramework.Controls.MetroLabel p_hex;
+        private MetroFramework.Controls.MetroLabel p_oct;
+        private MetroFramework.Controls.MetroLabel p_bin;
+        private MetroFramework.Controls.MetroLabel p_hex_in;
+        private MetroFramework.Controls.MetroLabel p_bin_in;
+        private MetroFramework.Controls.MetroLabel p_oct_in;
+        private MetroFramework.Controls.MetroLabel p_dec_in;
+        private MetroFramework.Controls.MetroLabel p_contact;
+        private MetroFramework.Controls.MetroLabel p_about;
+        private MetroFramework.Controls.MetroButton copy_button;
+        private MetroFramework.Controls.MetroLabel p_enter_number;
+        private MetroFramework.Controls.MetroLabel p_transform_to;
         private MetroFramework.Controls.MetroTextBox value_conv_l;
-        private MetroFramework.Controls.MetroLabel metroLabel18;
+        private MetroFramework.Controls.MetroLabel p_transform_to_l;
         private MetroFramework.Controls.MetroComboBox combobox_L_in;
-        private MetroFramework.Controls.MetroLabel metroLabel17;
+        private MetroFramework.Controls.MetroLabel p_transform_from_l;
         private MetroFramework.Controls.MetroComboBox combobox_L_din;
-        private MetroFramework.Controls.MetroLabel metroLabel16;
-        private MetroFramework.Controls.MetroLabel metroLabel19;
+        private MetroFramework.Controls.MetroLabel p_enter_number_l;
+        private MetroFramework.Controls.MetroLabel p_enter_to_t;
         private MetroFramework.Controls.MetroComboBox combobox_T_in;
-        private MetroFramework.Controls.MetroLabel metroLabel20;
+        private MetroFramework.Controls.MetroLabel p_enter_from_t;
         private MetroFramework.Controls.MetroComboBox combobox_T_din;
-        private MetroFramework.Controls.MetroLabel metroLabel21;
+        private MetroFramework.Controls.MetroLabel p_enter_number_t;
         private MetroFramework.Controls.MetroTextBox value_conv_t;
         private MetroFramework.Controls.MetroTextBox solutionTextBox;
-        private MetroFramework.Controls.MetroLabel metroLabel22;
+        private MetroFramework.Controls.MetroLabel p_transform_to_m;
         private MetroFramework.Controls.MetroComboBox combobox_M_in;
-        private MetroFramework.Controls.MetroLabel metroLabel23;
+        private MetroFramework.Controls.MetroLabel p_transform_from_m;
         private MetroFramework.Controls.MetroComboBox combobox_M_din;
-        private MetroFramework.Controls.MetroLabel metroLabel24;
+        private MetroFramework.Controls.MetroLabel p_enter_number_m;
         private MetroFramework.Controls.MetroTextBox value_conv_m;
         internal MetroFramework.Controls.MetroTabControl tabs_menu;
-        internal MetroFramework.Controls.MetroRadioButton metroRadioButton1;
-        internal MetroFramework.Controls.MetroRadioButton metroRadioButton2;
+        internal MetroFramework.Controls.MetroRadioButton radio_to_english;
+        internal MetroFramework.Controls.MetroRadioButton radio_to_romania;
         private MetroFramework.Controls.MetroTabPage metroTabPage5;
         private MetroFramework.Controls.MetroTabPage metroTabPage6;
         private MetroFramework.Controls.MetroTabPage metroTabPage7;
-        private MetroFramework.Controls.MetroLabel metroLabel12;
+        private MetroFramework.Controls.MetroLabel p_transform_to_a;
         private MetroFramework.Controls.MetroComboBox combobox_A_in;
-        private MetroFramework.Controls.MetroLabel metroLabel25;
+        private MetroFramework.Controls.MetroLabel p_transform_from_a;
         private MetroFramework.Controls.MetroComboBox combobox_A_din;
-        private MetroFramework.Controls.MetroLabel metroLabel26;
+        private MetroFramework.Controls.MetroLabel p_enter_number_a;
         private MetroFramework.Controls.MetroTextBox value_conv_a;
-        private MetroFramework.Controls.MetroLabel metroLabel27;
+        private MetroFramework.Controls.MetroLabel p_transform_in_v;
         private MetroFramework.Controls.MetroComboBox combobox_V_in;
-        private MetroFramework.Controls.MetroLabel metroLabel28;
+        private MetroFramework.Controls.MetroLabel p_transform_from_v;
         private MetroFramework.Controls.MetroComboBox combobox_V_din;
-        private MetroFramework.Controls.MetroLabel metroLabel29;
+        private MetroFramework.Controls.MetroLabel p_enter_number_v;
         private MetroFramework.Controls.MetroTextBox value_conv_v;
-        private MetroFramework.Controls.MetroLabel metroLabel30;
+        private MetroFramework.Controls.MetroLabel p_transform_in_timp;
         private MetroFramework.Controls.MetroComboBox combobox_TIMP_in;
-        private MetroFramework.Controls.MetroLabel metroLabel31;
+        private MetroFramework.Controls.MetroLabel p_transform_from_timp;
         private MetroFramework.Controls.MetroComboBox combobox_TIMP_din;
-        private MetroFramework.Controls.MetroLabel metroLabel32;
+        private MetroFramework.Controls.MetroLabel p_enter_number_time;
         private MetroFramework.Controls.MetroTextBox value_conv_time;
     }
 }
