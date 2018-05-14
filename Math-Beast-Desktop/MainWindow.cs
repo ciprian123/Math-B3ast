@@ -728,9 +728,9 @@ namespace Math_Beast_Desktop
 
             p_result.Text = "Transformation result:";
             p_about.Text = "ABOUT MATH-BEAST";
-            p_enter_number.Text = p_enter_number_l.Text = p_enter_number_t.Text = p_enter_number_m.Text = p_enter_number_a.Text = "Enter a number...";
-            p_transform_from_l.Text = p_enter_from_t.Text = p_transform_from_m.Text = p_transform_from_a.Text = "Transform from...";
-            p_transform_to.Text = p_transform_to_l.Text = p_enter_to_t.Text = p_transform_to_m.Text = p_transform_to_a.Text = "Transform to...";
+            p_enter_number.Text = p_enter_number_l.Text = p_enter_number_t.Text = p_enter_number_m.Text = p_enter_number_a.Text = p_enter_number_time.Text = p_enter_number_v.Text = "Enter a number...";
+            p_transform_from_l.Text = p_enter_from_t.Text = p_transform_from_m.Text = p_transform_from_a.Text = p_transform_from_v.Text = p_transform_from_timp.Text = "Transform from...";
+            p_transform_to.Text = p_transform_to_l.Text = p_enter_to_t.Text = p_transform_to_m.Text = p_transform_to_a.Text = p_transform_in_timp.Text = p_transform_in_v.Text = "Transform to...";
 
             combobox_L_din.Items[0] = combobox_L_in.Items[0] = "Nanometers".ToUpper();
             combobox_L_din.Items[1] = combobox_L_in.Items[1] = "Microns".ToUpper();
@@ -759,7 +759,7 @@ namespace Math_Beast_Desktop
             combobox_M_din.Items[12] = combobox_M_in.Items[12] = "Short Tons (UK)".ToUpper();
             combobox_M_din.Items[13] = combobox_M_in.Items[13] = "Long Tons (US)".ToUpper();
 
-            combobox_A_din.Items[0] = combobox_A_in.Items[0] = "Square milimeters".ToUpper();
+            combobox_A_din.Items[0] = combobox_A_in.Items[0] = "Square millimeters".ToUpper();
             combobox_A_din.Items[1] = combobox_A_in.Items[1] = "Square centimeters".ToUpper();
             combobox_A_din.Items[2] = combobox_A_in.Items[2] = "Square meters".ToUpper();
             combobox_A_din.Items[3] = combobox_A_in.Items[3] = "Hectares".ToUpper();
@@ -770,7 +770,7 @@ namespace Math_Beast_Desktop
             combobox_A_din.Items[8] = combobox_A_in.Items[8] = "Acres".ToUpper();
             combobox_A_din.Items[9] = combobox_A_in.Items[9] = "Square miles".ToUpper();
 
-            combobox_V_din.Items[0] = combobox_V_in.Items[0] = "Mililiters".ToUpper();
+            combobox_V_din.Items[0] = combobox_V_in.Items[0] = "Milliliters".ToUpper();
             combobox_V_din.Items[1] = combobox_V_in.Items[1] = "Cubic centimeters".ToUpper();
             combobox_V_din.Items[2] = combobox_V_in.Items[2] = "Liters".ToUpper();
             combobox_V_din.Items[3] = combobox_V_in.Items[3] = "Cubic meters".ToUpper();
@@ -824,9 +824,9 @@ namespace Math_Beast_Desktop
             p_result.Text = "Rezultatul transformării:";
             p_about.Text = "DESPRE MATH-BEAST";
 
-            p_enter_number.Text = p_enter_number_l.Text = p_enter_number_t.Text = p_enter_number_m.Text = p_enter_number_a.Text = "Introduceți un număr...";
-            p_transform_from_l.Text = p_enter_from_t.Text = p_transform_from_m.Text = p_transform_from_a.Text = "Transformați din...";
-            p_transform_to_l.Text = p_enter_to_t.Text = p_transform_to_m.Text = p_transform_to.Text = p_transform_to_a.Text = "Transformați în...";
+            p_enter_number.Text = p_enter_number_l.Text = p_enter_number_t.Text = p_enter_number_m.Text = p_enter_number_a.Text = p_enter_number_time.Text = p_enter_number_v.Text = "Introduceți un număr...";
+            p_transform_from_l.Text = p_enter_from_t.Text = p_transform_from_m.Text = p_transform_from_a.Text = p_transform_from_timp.Text = p_transform_from_v.Text = "Transformați din...";
+            p_transform_to_l.Text = p_enter_to_t.Text = p_transform_to_m.Text = p_transform_to.Text = p_transform_to_a.Text = p_transform_in_timp.Text = p_transform_in_v.Text = "Transformați în...";
 
             combobox_L_din.Items[0] = combobox_L_in.Items[0] = "Nanometri".ToUpper();
             combobox_L_din.Items[1] = combobox_L_in.Items[1] = "Microni".ToUpper();
